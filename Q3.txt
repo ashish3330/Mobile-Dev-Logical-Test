@@ -1,0 +1,22 @@
+<script>
+
+var findRepeatingNumber = function(nums) {
+    var sum1=99*98/2;
+    var sum=0;
+    for(var i=0;i<101;i++)
+    sum+=nums[i];
+    return sum-sum1;
+    
+};
+var Array = [];
+var size = 101; //Maximum Array size
+
+for(var i=0; i<size; i++) {
+	
+	//Taking Input from user
+	Array[i] = prompt('Enter Element ' + (i+1));
+}
+document.write(findRepeatingNumber(Array));
+
+
+</script>

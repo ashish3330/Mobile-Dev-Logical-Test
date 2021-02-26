@@ -1,0 +1,17 @@
+<script>
+
+function even(array){
+  
+  for (let i = 0; i < array.length; i++){
+    if (array[i] % 2 === 0){
+      document.write(array[i]);
+      document.write("\n");
+
+    }
+  }
+}
+
+var arr=[10,14,15,18,96,99];
+even(arr);
+
+</script>

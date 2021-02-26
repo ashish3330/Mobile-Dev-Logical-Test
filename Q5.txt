@@ -1,0 +1,23 @@
+<script>
+let employees = [
+    {
+        firstName: 'Ashish',
+        id: 25
+    },
+    {
+        firstName: 'Ankit',
+        id :21
+    },
+
+    {
+        firstName: 'Nishi',
+        id:12
+    }
+];
+employees.sort((a, b) => {
+    return a.id - b.id;
+});
+employees.forEach((e) => {
+    document.write(`${e.firstName}${e.id}` );
+});
+</script>
